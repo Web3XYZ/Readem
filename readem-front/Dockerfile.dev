@@ -1,0 +1,14 @@
+FROM docker.io/node:alpine AS builder
+
+COPY . /frontend
+WORKDIR /frontend
+
+RUN yarn
+RUN npm run build:dev
+
+FROM docker.io/busybox:latest
+
+EXPOSE 3000
+COPY --from=builder /frontend/dist /build
+RUN echo "E404:index.html" > /etc/httpd.conf
+ENTRYPOINT ["httpd", "-f", "-p", "0.0.0.0:3000", "-h", "/build", "-c", "/etc/httpd.conf"]

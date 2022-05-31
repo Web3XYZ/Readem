@@ -1,0 +1,288 @@
+.home
+    .earn
+        padding: 0 15px 20px
+
+        .tip
+            height: 70px
+            background: #121212
+            border-radius: 15px
+            color: #fff
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding: 0 15px
+            margin: 0 0 20px
+
+            .tipTxt
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 700
+                font-size: 14px
+                line-height: 18px
+
+            .tipDesc
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                line-height: 15px
+                margin: 5px 0 0
+                color: rgba(#fff, 0.5)
+
+            .icon
+                size: 22px
+
+        .title
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 700
+            font-size: 16px
+            line-height: 20px
+            margin: 0 0 15px
+            display: flex
+            justify-content: space-between
+            color: #fff
+
+            .name
+                font-family: macho, sans-serif
+                font-weight: 700
+                font-style: normal
+                font-size: 16px
+                line-height: 20px
+                color: #fff
+                display: flex
+                justify-content: center
+
+                span
+                    font-size: 20px
+                    line-height: 20px
+                    margin: 0 5px 0 0
+
+            a
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 400
+                font-size: 13px
+                line-height: 16px
+                color: rgba(#fff, 0.5)
+                display: flex
+                align-items: center
+
+                .icon
+                    size: 10px
+                    margin: 0 0 0 10px
+                    color: #fff
+
+        .books
+            display: flex
+
+            .item
+                flex: 0 0 calc(33.33333% - 6px)
+                padding: 10px 10px 30px
+                box-sizing: border-box
+
+                &:nth-child(2)
+                    margin: 0 8px
+
+                .imgWrap
+                    padding: 0 5px
+
+                    .img
+                        border-radius: 4px
+
+                .tit
+                    font-family: 'Outfit'
+                    font-style: normal
+                    font-weight: 600
+                    font-size: 12px
+                    line-height: 15px
+                    color: #fff
+                    margin: 15px 0 5px
+
+                .read
+                    font-family: 'Outfit'
+                    font-style: normal
+                    font-size: 12px
+                    line-height: 15px
+                    color: rgba(#fff, 0.3)
+
+                    em
+                        color: rgba(#fff, 0.5)
+
+        .working
+            word-break: break-all
+            box-sizing: border-box
+            padding: 0 15px 25px
+            position: relative
+
+            &:before
+                position: absolute
+                content: ' '
+                display: block
+                border: 2px solid rgba(255, 255, 255, 0.1)
+                border-radius: 20px
+                height: var(--working-height)
+                width: 100%
+                top: 0
+                left: 0
+
+            .workingMain
+                position: relative
+                z-index: 1
+
+                .header
+                    height: 78px
+                    box-sizing: border-box
+                    padding: 17px 0 0
+
+                    .titleWrap
+                        display: flex
+                        justify-content: space-between
+
+                        .tit
+                            font-family: 'Outfit'
+                            font-style: normal
+                            font-weight: 700
+                            font-size: 21px
+                            line-height: 26px
+                            color: #fff
+
+                        .box
+                            display: flex
+
+                            .item
+                                color: #fff
+                                border: 2px solid rgba(#fff, 0.2)
+                                border-radius: 22px
+                                height: 22px
+                                line-height: 22px
+                                padding: 0 10px
+                                margin: 0 0 0 5px
+                                font-family: 'Outfit'
+                                font-style: normal
+                                font-weight: 600
+                                font-size: 12px
+                                position: relative
+                                overflow: hidden
+
+                                div
+                                    position: absolute
+                                    top: 0
+                                    left: 0
+                                    background: #00FF85
+                                    height: 100%
+
+                                span
+                                    position: relative
+                                    z-index: 1
+                                    padding: 0 20px
+
+                    .tagWrap
+                        display: flex
+                        justify-content: space-between
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 600
+                        font-size: 13x
+                        line-height: 16px
+                        color: #fff
+                        margin: 10px 0 0
+
+            .img
+                .image
+                    border-radius: 15px
+
+                .block
+                    width: 100%
+                    height: 330px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    background: #121212
+                    border-radius: 15px
+                    flex-direction: column
+
+                    .add
+                        background: rgba(255, 255, 255, 0.05)
+                        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2)
+                        border-radius: 100%
+                        size: 35px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+
+                        .icon
+                            size: 14px
+                            color: #fff
+
+                    .addText
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: 13px
+                        line-height: 16px
+                        text-align: center
+                        color: rgba(255, 255, 255, 0.5)
+                        margin: 15px 0 0
+                        width: 210px
+
+        .myEarn
+            .tit
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 700
+                font-size: 13px
+                line-height: 17px
+                margin: 0 0 10px
+                color: rgba(#fff, .5)
+
+            .box
+                display: flex
+                justify-content: space-between
+
+                .left
+                    display: flex
+                    align-items: center
+
+                    img
+                        size: 35px
+                        margin: 0 15px 0 0
+
+                    .info
+                        .symbol
+                            font-family: 'Outfit'
+                            font-style: normal
+                            font-weight: 600
+                            font-size: 15px
+                            line-height: 19px
+                            color: #fff
+
+                        .rewords
+                            font-family: 'Outfit'
+                            font-style: normal
+                            font-weight: 400
+                            font-size: 12px
+                            line-height: 15px
+                            color: #00FF85
+                            margin: 5px 0 0
+
+                .right
+                    text-align: right
+
+                    .amount
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 600
+                        font-size: 15px
+                        line-height: 19px
+                        color: #fff
+
+                    .price
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: 12px
+                        line-height: 15px
+                        color: rgba(#fff, 0.5)
+                        mix-blend-mode: normal
+                        margin: 5px 0 0

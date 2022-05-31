@@ -1,0 +1,26 @@
+.footer
+    background: #000
+
+    .bar
+        display: flex
+        justify-content: space-between
+        padding: 10px 32px
+
+        .item
+            font-size: 12px
+            border-radius: 4px
+            cursor: pointer
+            position: relative
+            align-items: center
+            justify-content: center
+            color: rgba(#fff, 0.3)
+            text-align: center
+
+            .icon
+                margin: 0 0 10px 0
+                size: 30px
+                display: block
+                margin: 0 auto 5px
+
+            &.cur
+                color: #fff

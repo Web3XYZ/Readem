@@ -1,0 +1,93 @@
+.dialog
+    .modalTitle
+        position: relative
+        justifyContentSpaceBetween()
+        alignItemsCenter()
+        height: 62px
+        border-bottom: 1px solid var(--var-line)
+        padding: 0 28px
+
+        .title
+            font-size: 20px
+            color: #fff
+            font-weight: bold
+
+        span
+            display: block
+            size: 24px
+            cursor: pointer
+
+            :global(.icon)
+                size: 24px
+
+    .modalMain
+        padding: 22px 24px 0
+
+        .title
+            font-family: Poppins
+            font-style: normal
+            font-weight: normal
+            font-size: 14px
+            line-height: 16px
+            color: #5F5D77
+
+        .content
+            justifyContentSpaceBetween()
+            alignItemsCenter()
+            height: 60px
+            background: #F8F8F8
+            border-radius: 8px
+            padding: 0 14px
+            margin: 10px 0 24px
+
+            img
+                width: 30px
+
+            .text
+                color: #262533
+                font-family: Poppins
+                font-style: normal
+                font-weight: 500
+                font-size: 20px
+
+            span
+                display: block
+                size: 24px
+                cursor: pointer
+
+                :global(.icon)
+                    size: 24px
+                    color: #8D8B9E
+
+        .info
+            justifyContentSpaceBetween()
+
+            .text
+                font-family: Poppins
+                font-style: normal
+                font-weight: normal
+                font-size: 14px
+                color: #5F5D77
+
+            .num
+                font-family: Poppins
+                font-style: normal
+                font-weight: 600
+                font-size: 14px
+                color: #262533
+
+    .modalBtn
+        color: var(--var-btn)
+        border: 1px solid var(--var-btn)
+        border-radius: 8px
+        text-align: center
+        font-weight: 500
+        font-size: 20px
+        height: 60px
+        line-height: @height
+        margin: 46px 24px 24px
+        cursor pointer
+
+        &:hover
+            color: var(--var-btn-hover)
+            border: 1px solid var(--var-btn-hover)

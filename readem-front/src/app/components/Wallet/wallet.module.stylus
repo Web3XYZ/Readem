@@ -1,0 +1,146 @@
+.wallet
+
+    max-height: 52vh
+    overflow: auto
+
+    .balance
+        display: flex
+        justify-content: center
+
+        span
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 600
+            font-size: 16px
+            line-height: 20px
+            color: #fff
+            padding: 10px 5px 0 0
+
+        em
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 600
+            font-size: 40px
+            line-height: 50px
+            color: #fff
+
+    .btnWrap
+        display: flex
+        justify-content: center
+        padding: 55px 0 32px
+
+        .btn
+            margin: 0 25px
+            background: #F2F2F2
+            size: 46px
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 100%
+
+            .icon
+                size: 20px
+
+    .tokenList
+
+        .item
+            display: flex
+            align-items: center
+
+            img
+                size: 35px
+                margin: 0 15px 0 0
+
+            .token
+                flex: 1
+                display: flex
+                align-items: center
+                justify-content: space-between
+                border-bottom: 1px solid rgba(#fff, .1)
+                height: 66px
+
+                .name
+                    font-family: 'Outfit'
+                    font-style: normal
+                    font-weight: 600
+                    font-size: 15px
+                    line-height: 19px
+                    color: #fff
+
+                .num
+                    text-align: right
+
+                    div
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 600
+                        font-size: 15px
+                        line-height: 19px
+                        color: #fff
+
+                    span
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: 12px
+                        line-height: 15px
+                        color: rgba(#fff, 0.5)
+                        margin: 5px 0 0
+
+    .record
+        padding: 25px 0 0
+
+        .title
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 700
+            font-size: 16px
+            line-height: 20px
+            color: #fff
+
+        .list
+            .item
+                display: flex
+                justify-content: space-between
+                align-items: center
+
+                .img
+                    background: #F2F2F2
+                    size: 35px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    border-radius: 100%
+                    margin: 0 15px 0 0
+
+                    .icon
+                        size: 13px
+
+                .info
+                    flex: 1
+                    padding: 15px 0
+                    border-bottom: 1px solid rgba(#fff, .1)
+
+                    .amountType
+                        display: flex
+                        justify-content: space-between
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 600
+                        font-size: 15px
+                        line-height: 19px
+                        color: #fff
+                        padding: 0 0 5px
+
+                    .timeWrap
+                        display: flex
+                        justify-content: space-between
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: 12px
+                        line-height: 15px
+                        color: rgba(#fff, 0.5)
+
+                        span
+                            color: #fff

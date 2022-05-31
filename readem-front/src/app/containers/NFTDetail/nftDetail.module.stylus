@@ -1,0 +1,138 @@
+.nftDetail
+    background: #000
+
+    .header
+        background none
+
+        .btn
+            flexCenter()
+            size: 100%
+
+            .icon
+                size: 18px
+
+    .box
+        position relative
+
+        &:before
+            display block
+            content: ' '
+            size: 100%
+            background linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%)
+            z-index 1
+            top 0
+            left: 0
+            position absolute
+
+    .info
+        margin 0 15px
+
+        .title
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+            color: #FFFFFF;
+            padding 20px 0 10px
+
+        .subTitle
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 28px;
+            color: #FFFFFF;
+            margin 0 0 15px
+            display flex
+            justify-content: space-between
+            
+
+        .progressBar
+            border-radius: 100px;
+            height 4px
+            background rgba(#fff, .1)
+            margin 0 0 15px
+
+            div
+                background: #00FF85;
+                height 100%
+            
+    .attr
+        border-top 1px solid rgba(#fff, .1)
+        margin 0 15px
+        padding 0 0 80px
+
+        .title
+            margin 25px 0 25px
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+
+        .callage
+            display flex
+
+            .item
+                border: 2px solid #00FF85;
+                border-radius: 10px;
+                padding 10px
+                margin 0 10px 0 0
+
+                .tit
+                    font-family: 'Outfit';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color rgba(#fff, .5)
+
+                .num
+                    font-family: 'Outfit';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin 10px 0 0
+                    color #fff
+
+    .submit
+        position: fixed
+        bottom: 0
+        left: 0
+        width: 100%
+        box-sizing: border-box
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        background: #00FF85;
+        border-radius: 15px 15px 0 0;
+        color: #000
+        text-align: center
+        padding: 15px 0
+        border 0 none
+
+        .txt
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            color: #000000;
+
+        img
+            size: 13px
+            margin 0 5px 0 10px
+
+        .price
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #000000;
+

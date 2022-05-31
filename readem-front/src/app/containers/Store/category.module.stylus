@@ -1,0 +1,34 @@
+.category
+
+    .list
+        flexWrap()
+        padding: 15px+66px 15px 15px
+
+        .item
+            flex: 0 0 calc(33.33333% - 6px)
+            padding: 10px
+            box-sizing: border-box
+
+            &:nth-child(3n+2)
+                margin: 0 8px 25px
+
+            .img
+                border-radius: 4px
+                height: 140px
+
+            .name
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 600
+                font-size: 12px
+                line-height: 15px
+                color: #fff
+                padding: 8px 0 5px
+
+            .author
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                line-height: 15px
+                color: rgba(#fff, 0.5)

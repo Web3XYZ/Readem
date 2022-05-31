@@ -1,0 +1,22 @@
+.longPress
+    // -webkit-touch-callout: none
+    // -webkit-user-select: none
+    // -khtml-user-select: none
+    // -moz-user-select: none
+    // -ms-user-select: none
+    // user-select: none
+    // touch-action: none
+    position: relative
+
+    &:after
+        position absolute
+        width: 100%
+        height: 100%
+        z-index: 2
+        background: rgba(#fff, .2)
+        content: ' '
+        display: block
+        top: 0
+        left: 0
+        user-select: none
+        touch-action: pan-x pan-y

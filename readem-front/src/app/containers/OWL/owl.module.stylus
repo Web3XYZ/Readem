@@ -1,0 +1,29 @@
+.owl
+    .main
+        padding: 66px 0 0
+
+        .itemTitle
+            display: flex !important
+            justify-content: space-between
+
+            em
+                border: 2px solid #FFFFFF
+                border-radius: 100px
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 600
+                font-size: 12px
+                line-height: 14px
+                padding: 0 10px 0 15px
+                position: relative
+
+                &:after
+                    position: absolute
+                    size: 5px
+                    display: block
+                    content: ' '
+                    background: #00FF85
+                    border-radius: 100%
+                    top: 50%
+                    left: 5px
+                    transform: translateY(-50%)

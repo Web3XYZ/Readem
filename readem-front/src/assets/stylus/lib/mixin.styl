@@ -1,0 +1,160 @@
+/* 样式片段及函数 */
+size()
+  if (length(arguments) == 1)
+    width: arguments[0]
+    height: arguments[0]
+  else
+    width: arguments[0]
+    height: arguments[1]
+
+fontHeight()
+  if (length(arguments) == 1)
+    height: arguments[0]
+    line-height: arguments[0]
+    font-size: arguments[0]
+  else
+    height: arguments[0]
+    line-height: arguments[0]
+    font-size: arguments[1]
+
+fontScale($fontSize)
+  font-size: 12px
+  transform: scale(($fontSize / 12), ($fontSize / 12))
+
+one-line()
+  width: 100%
+  overflow: hidden
+  white-space: nowrap
+  text-overflow: ellipsis
+
+multi-line($lines)
+  display: -webkit-box
+  overflow: hidden
+  text-overflow: ellipsis
+  -webkit-line-clamp: $lines
+  -webkit-box-orient: vertical
+
+no-wrap()
+  text-overflow: ellipsis
+  overflow: hidden
+  white-space: nowrap
+
+flexCenter()
+  display: flex
+  align-items: center
+  justify-content: center
+
+alignItemsCenter()
+  display: flex
+  align-items: center
+
+justifyContentCenter()
+  display: flex
+  justify-content: center
+
+justifyContentSpaceBetween()
+  display: flex
+  justify-content: space-between
+
+flexWrap()
+  display: flex
+  flex-wrap: wrap
+  align-content: flex-start
+
+flexWrapItem(n)
+  flex: 0 0 (100 / n)%
+
+abCenter($direction = xy)
+  position: absolute
+  if ($direction == x)
+    top: 0
+    left: 50%
+    transform: translate(0, -50%)
+  else if ($direction == y)
+    top: 50%
+    left: 0
+    transform: translate(-50%, 0)
+  else if ($direction == xy)
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+hide-text()
+  text-indent: 101%
+  white-space: nowrap
+  overflow: hidden
+
+/*
+ * 重写 css
+ */
+clear(n)
+  zoom: 1
+
+  &:after
+    visibility: hidden
+    display: block
+    font-size: 0
+    content: ' '
+    clear: n
+    height: 0
+
+/* rem 下慎用 */
+// border(offset-x, args...)
+//   border: offset-x args
+
+//   if (offset-x == 1px)
+//     @media screen and (-webkit-min-device-pixel-ratio: 2)
+//       $w = (offset-x / 2)
+//       border: $w args
+
+//     @media screen and (-webkit-min-device-pixel-ratio: 3)
+//       $w = (offset-x / 2)
+//       border: $w args
+
+// border-top(offset-x, args...)
+//   border-top: offset-x args
+
+//   if (offset-x == 1px)
+//     @media screen and (-webkit-min-device-pixel-ratio: 2)
+//       $w = (offset-x / 2)
+//       border-top: $w args
+
+//     @media screen and (-webkit-min-device-pixel-ratio: 3)
+//       $w = (offset-x / 2)
+//       border-top: $w args
+
+// border-bottom(offset-x, args...)
+//   border-bottom: offset-x args
+
+//   if (offset-x == 1px)
+//     @media screen and (-webkit-min-device-pixel-ratio: 2)
+//       $w = (offset-x / 2)
+//       border-bottom: $w args
+
+//     @media screen and (-webkit-min-device-pixel-ratio: 3)
+//       $w = (offset-x / 2)
+//       border-bottom: $w args
+
+// border-left(offset-x, args...)
+//   border-left: offset-x args
+
+//   if (offset-x == 1px)
+//     @media screen and (-webkit-min-device-pixel-ratio: 2)
+//       $w = (offset-x / 2)
+//       border-left: $w args
+
+//     @media screen and (-webkit-min-device-pixel-ratio: 3)
+//       $w = (offset-x / 2)
+//       border-left: $w args
+
+// border-right(offset-x, args...)
+//   border-right: offset-x args
+
+//   if (offset-x == 1px)
+//     @media screen and (-webkit-min-device-pixel-ratio: 2)
+//       $w = (offset-x / 2)
+//       border-right: $w args
+
+//     @media screen and (-webkit-min-device-pixel-ratio: 3)
+//       $w = (offset-x / 2)
+//       border-right: $w args

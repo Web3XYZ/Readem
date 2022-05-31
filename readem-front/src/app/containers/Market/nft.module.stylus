@@ -1,0 +1,142 @@
+.nft
+    .main
+        padding: 0 15px
+
+        .tip
+            height: 50px
+            background: #121212
+            border-radius: 15px
+            color: #fff
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding: 0 15px
+            margin: 0 0 20px
+
+            .tipTxt
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 500
+                font-size: 16px
+                line-height: 20px
+
+            .icon
+                size: 22px
+
+        .list
+            flexWrap()
+            overflow auto
+
+            .item
+                flex: 0 0 calc(50% - 5px)
+                margin: 0 0 0 5px
+                word-break: break-all
+                box-sizing: border-box
+                padding: 10px
+                position: relative
+
+                &:before
+                    position: absolute
+                    content: ' '
+                    display: block
+                    border: 2px solid rgba(#fff, 0.1)
+                    border-radius: 15px
+                    height: var(--item-height)
+                    width: 100%
+                    top: 0
+                    left: 0
+                    box-sizing: border-box
+
+                &:nth-child(2n+1)
+                    margin: 0 5px 0 0
+
+                .itemMain
+                    position: relative
+                    z-index: 1
+                    width: 100%
+                    overflow: hidden
+
+                    .itemTitle
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 16px
+                        line-height: 20px
+                        margin: 0 0 10px
+                        color: #fff
+                        display: flex
+                        justify-content: space-between
+
+                        em
+                            border: 2px solid #FFFFFF
+                            border-radius: 100px
+                            font-family: 'Outfit'
+                            font-style: normal
+                            font-weight: 600
+                            font-size: 12px
+                            line-height: 14px
+                            padding: 0 10px 0 15px
+                            position: relative
+
+                            &:after
+                                position: absolute
+                                size: 5px
+                                display: block
+                                content: ' '
+                                background: #00FF85
+                                border-radius: 100%
+                                top: 50%
+                                left: 5px
+                                transform: translateY(-50%)
+
+
+                    .itemImg
+                        border-radius: 15px
+
+                    .itemMint
+                        display: flex
+                        justify-content: space-between
+                        margin: 10px 0 0
+                        color: #fff
+
+                    .progressBar
+                        height: 4px
+                        background: rgba(#fff, 0.1)
+                        margin: 5px 0 10px
+                        border-radius: 100px
+
+                        div
+                            background: #00FF85
+                            height: 100%
+                            border-radius: 100px
+
+                    .itemPrice
+                        display: flex
+                        justify-content: space-between
+                        align-items: center
+
+                        .price
+                            display: flex
+                            align-items: center
+                            color: #fff
+
+                            img
+                                size: 13px
+                                margin: 0 5px 0 0
+
+                            span
+                                font-family: 'Outfit'
+                                font-style: normal
+                                font-weight: 700
+                                font-size: 18px
+
+                        .btn
+                            background: #00FF85
+                            border-radius: 100px
+                            height: 20px
+                            font-family: 'Outfit'
+                            font-style: normal
+                            font-weight: 600
+                            font-size: 12px
+                            color: #000
+                            padding: 0 10px

@@ -1,0 +1,92 @@
+.receive
+    .content
+        position: relative
+
+        .main
+            text-align: center
+            padding: 100px 0 0
+
+            .input
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 700
+                --text-align: center
+                --color: #fff
+                --font-size: 60px
+
+            .balance
+                color: rgba(#fff, 0.5)
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                line-height: 14px
+                margin: 15px 0 0
+
+            .tipTxt
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 500
+                font-size: 12px
+                line-height: 15px
+                color: #FFFFFF
+                margin: 25px 0
+
+            .erc20
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 600
+                font-size: 12px
+                line-height: 15px
+                color: #FFFFFF
+                border: 2px solid rgba(255, 255, 255, 0.1)
+                border-radius: 100px
+                width: 74px
+                height: 26px
+                line-height: @height
+                text-align: center
+                margin: 0 auto
+
+            .address
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 500
+                font-size: 13px
+                line-height: 16px
+                color: #FFFFFF
+                opacity: 0.5
+                margin: 25px 0 0
+
+        .copyBtn
+            width: calc(100% - 60px)
+            background: #00FF85
+            position: fixed
+            bottom: 50px
+            left: 50%
+            transform: translate(-50%, 0)
+            text-align: center
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            color: #000000;
+            height: 36px
+            line-height: @height
+            border-radius: 100px
+
+        .sendBtn
+            size: 45px
+            border-radius: 45px
+            text-align: center
+            background: #00FF85
+            flexCenter()
+            position: fixed
+            bottom: 50px
+            left: 50%
+            transform: translate(-50%, 0)
+
+            &.disabled
+                opacity .5
+
+            .icon
+                size: 15px

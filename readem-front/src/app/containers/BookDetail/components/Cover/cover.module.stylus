@@ -1,0 +1,66 @@
+.bookDetail
+
+    .main
+        padding: 15px + 66px 15px 15px
+        height: 100%
+        box-sizing: border-box
+        position: relative
+
+        .img
+            margin: 0 auto 40px
+            border-radius: 4px
+
+        .name
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 700
+            font-size: 28px
+            line-height: 36px
+            color: #fff
+            margin: 0 0 15px
+
+        .author
+            color: rgba(#fff, 0.5)
+
+            span
+                color: #fff
+                margin: 0 0 0 5px
+
+        .desc
+            border-top: 1px solid rgba(#fff, .1)
+            padding: 15px 0 0
+            margin: 15px 0 0
+
+            .title
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 700
+                font-size: 16px
+                line-height: 20px
+                padding: 0 0 10px
+                color: #fff
+
+            .description
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 18px
+                color: rgba(#fff, 0.7)
+
+        .btn
+            position: fixed
+            bottom: 0
+            left: 0
+            width: 100%
+            box-sizing: border-box
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 700
+            font-size: 14px
+            background: #00FF85;
+            border-radius: 15px 15px 0 0;
+            color: #000
+            text-align: center
+            padding: 15px 0
+

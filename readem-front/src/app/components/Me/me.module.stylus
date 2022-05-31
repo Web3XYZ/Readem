@@ -1,0 +1,92 @@
+.me
+    .content
+
+        .close
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 500
+            font-size: 18px
+            line-height: 20px
+            color: rgba(#fff, 0.5)
+
+        .header
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 700
+            font-size: 28px
+            line-height: 36px
+            color: #fff
+            margin: 10px 0 15px
+
+        .user
+            display: flex
+            align-items: center
+
+            img
+                size: 60px
+                border-radius: 100%
+
+            .box
+                margin: 0 0 0 15px
+
+                .name
+                    display: flex
+                    align-items: center
+
+                    div
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 18px
+                        line-height: 22px
+                        color: #fff
+
+                    .icon
+                        size: 11px
+                        margin: 0 0 0 10px
+                        color: rgba(#fff, 0.3)
+
+                .email
+                    font-family: 'Outfit'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 12px
+                    line-height: 15px
+                    margin: 5px 0 0
+                    color: rgba(#fff, 0.5)
+
+        .list
+            margin: 25px 0 0
+
+            .title
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                line-height: 14px
+                color: rgba(#fff, 0.3)
+
+            .main
+                .item
+                    display: flex
+                    justify-content: space-between
+                    height: 48px
+                    line-height: @height
+                    align-items: center
+                    border-bottom: 1px solid rgba(#fff, .1)
+
+                    .left
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 600
+                        font-size: 13x
+                        line-height: 16px
+                        color: #fff
+
+                        &.logout
+                            color: #FF3838
+
+
+                    .icon
+                        size 8px
+                        color: #fff

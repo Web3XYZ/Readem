@@ -1,0 +1,87 @@
+.login
+    z-index: 2
+    margin: 0 auto
+    height: 100%
+    display: flex
+    flex-direction: column
+    box-sizing: border-box
+
+    .title
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 28px
+        line-height: 36px
+        text-transform: capitalize
+        color: #fff
+        padding: 20px 15px 8px
+
+    .main
+        flex: 1
+        padding: 0 15px
+
+        .formItem
+            display: flex
+            border-bottom: 1px solid rgba(#fff, .1)
+            display: flex
+            justify-content: space-between
+
+            &.formItemFocus
+                border-bottom: 1px solid #fff
+
+            &:last-child
+                margin: 5px 0 25px
+
+            .input
+                --font-size: 14px
+                --color: #fff
+                --placeholder-color: rgba(#fff, 0.3)
+                margin: 20px 0 5px
+
+                input
+                    font-weight: 600
+
+            .codeBtn
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px
+                color: #fff
+                background: none
+                margin: 20px 0 5px 20px
+
+        .notice
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 500
+            font-size: 13px
+            line-height: 17px
+            color: #FFFFFF
+            margin: 25px 0
+
+        .btn
+            width: 100%
+            background: #00FF85
+            border-radius: 100px
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 700
+            font-size: 14px
+            line-height: 18px
+            color: #000000
+            border: 0 none
+            height: 38px
+
+            &.loading
+                justify-content: center
+                opacity: 1
+
+    .error
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        color: #FFFFFF
+        text-align: center
+        background: #FF3838
+        padding: 15px 0

@@ -1,0 +1,103 @@
+.store
+    .wrap
+        padding: 0 15px
+
+    .block
+        border-bottom: 1px solid rgba(#fff, 0.1)
+        margin: 0 0 20px
+
+        &:last-child
+            border-bottom: 0 none
+
+        .header
+            display: flex
+            justify-content: space-between
+            padding: 0 0 25px
+
+            .title
+                font-family: macho, sans-serif
+                font-weight: 700
+                font-style: normal
+                font-size: 16px
+                line-height: 20px
+                color: #fff
+
+            a
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 400
+                font-size: 13px
+                line-height: 16px
+                color: rgba(#fff, 0.5)
+                display: flex
+                align-items: center
+
+                .icon
+                    size: 8px
+                    margin: 0 0 0 10px
+
+        .list
+            padding: 0 0 20px
+
+            .books
+                padding: 0 10px
+
+                .item
+                    display: flex
+                    padding: 0 0 40px
+
+                    .box
+                        position: relative
+                        height: 140px
+                        width: 100%
+
+                        .img
+                            position: absolute
+                            top: 0
+                            left: 50%
+                            transform: translate(-50%, 0)
+                            border-radius: 4px
+                            width: 100%
+                            height: auto
+                            overflow: hidden
+                            transition: all .1s
+
+                    .txt
+                        padding: 0 0 0 10px
+
+                        .name
+                            font-weight: bold
+
+                        .author
+                            padding: 5px 0 10px
+
+                :global(.swiper-slide-active)
+                    margin-right: 39px !important
+
+                    .box
+                        .img
+                            transform: translate(-40%, 10%) scale(1.2)
+
+                :global(.swiper-slide-next)
+                    margin-right: 18px !important
+
+            .txt
+                padding: 0 10px
+
+                .name
+                    font-family: 'Outfit'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 15px
+                    line-height: 19px
+                    color: #fff
+                    margin: 10px 0 0
+
+                .desc
+                    font-family: 'Outfit'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 12px
+                    line-height: 15px
+                    color: rgba(#fff, 0.5)
+                    margin: 10px 0 0

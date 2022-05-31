@@ -1,0 +1,64 @@
+.myBooks
+
+    .headerBtn
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        position absolute
+        right: 15px
+        top 50%
+        transform: translate(0, -50%)
+
+
+    .list
+        flexWrap()
+        padding: 15px+66px 15px 15px
+
+        .item
+            flex: 0 0 calc(33.33333% - 6px)
+            padding: 10px
+            box-sizing: border-box
+
+            &:nth-child(3n+2)
+                margin: 0 8px 25px
+
+            .box
+                position relative
+
+                .img
+                    border-radius: 4px
+                    height: 140px
+
+                .checkbox
+                    size: 20px
+                    border-radius 5px
+                    border: 1px solid #FFFFFF;
+                    background rgba(#000, .8)
+                    position absolute
+                    right: 5px
+                    bottom: 5px
+                    flexCenter()
+
+                    .icon
+                        size: 10px
+                        color #fff
+
+            .name
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 600
+                font-size: 12px
+                line-height: 15px
+                color: #fff
+                padding: 8px 0 5px
+
+            .author
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                line-height: 15px
+                color: rgba(#fff, 0.5)

@@ -1,0 +1,34 @@
+.header
+    background: none
+    border-bottom: 1px solid var(--var-header-line)
+    height: 66px
+    color: #fff
+    display: flex
+    justify-content: space-between
+    justify-items: center
+    align-items: center
+    box-sizing: border-box
+    width: 100%
+    position: fixed
+    background: #000
+    top: 0
+    z-index: 10
+
+    .left
+        height: 100%
+        width: 40px
+        flexCenter()
+
+        .icon
+            size: 15px
+
+    .title
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+
+    .right
+        width: 40px
+        height 100%
+        position relative

@@ -1,0 +1,576 @@
+:root
+    --var-bg: #000
+
+::-webkit-scrollbar
+    display: none
+    scrollbar-width: none
+
+html, body, #root
+    position: relative
+    height: 100%
+    background: #000
+
+.icon
+    display: inline-block
+    width: 20px
+    height: 20px
+    fill: currentColor
+
+.adm-image-tip
+    background-color: #121212 !important
+
+    .antd-mobile-icon
+        display: none
+
+.lt-loading
+    height: 100%
+    flexCenter()
+    font-size: 18px
+    color: #fff
+
+.lt-layout
+    flex: 1
+    height: 100%
+    display: flex
+    flex-direction: column
+
+    .lt-user
+        height: 36px
+        padding: 15px 15px 20px
+        display: flex
+        justify-content: space-between
+
+        .left
+            display: flex
+            justify-content: center
+            align-items: center
+
+            .icon
+                size: 10px
+                color: #fff
+
+            .userWrap
+                display: flex
+                align-items: center
+
+                img
+                    size: 35px
+                    border-radius: 100%
+                    margin: 0 10px
+
+                .userName
+                    div
+                        font-family: 'Outfit'
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 14px
+                        line-height: 18px
+                        color: #fff
+                        one-line()
+                        width: 180px
+
+        .right
+            display: flex
+            align-items: center
+
+            .wallet
+                padding: 0 0 0 10px
+
+            img
+                size: 35px
+
+    .lt-main
+        flex: 1
+        overflow: auto
+        position: relative
+
+        .lt-nav
+            display: flex
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            box-sizing: border-box
+            z-index: 3
+            background: #fff
+            padding: 20px 15px
+
+            &.between
+                justify-content: space-between
+
+                .adm-search-bar
+                    --height: 30px
+                    width: 160px
+                    --border-radius: 20px
+                    --adm-color-primary: #fff
+
+            .item
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 700
+                font-size: 26px
+                line-height: 30px
+                color: rgba(#fff, 0.2)
+                margin: 0 15px 0 0
+
+                &.cur
+                    color: #fff
+
+        .lt-filterBar
+            padding: 0 0 20px
+
+        .lt-swiper
+            height: calc(100% - 126px)
+
+            .wrap
+                padding: 0 15px
+                box-sizing: border-box
+                overflow: auto
+                height: 100%
+
+                &::-webkit-scrollbar
+                    display: none
+
+        .noData
+            text-align: center
+            padding: 30px
+            display: none
+
+.lt-select
+    border: 2px solid rgba(#fff, 0.1)
+    border-radius: 100px
+    display: inline-flex
+    align-items: center
+    padding: 0 15px 0 0
+    min-height: 28px
+
+    img
+        size: 30px
+        margin: 5px 0 5px 5px
+
+        +span
+            padding-left: 5px
+
+    span
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 600
+        font-size: 14px
+        padding: 0 20px 0 15px
+        color: #fff
+
+    .icon
+        size: 8px
+        transform: rotate(90deg)
+        color: #fff
+
+.popup
+    .adm-popup-body
+        background: #212121
+        border-radius: 20px
+        left: 15px
+        bottom: 15px
+
+    .popupTitle
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 18px
+        line-height: 22px
+        padding: 20px 15px 0
+        color: #fff
+
+    .popupWrap
+        padding: 15px 15px 0
+
+        .input
+            height: 36px
+            line-height: @height
+            --font-size: 13px
+            --color: #fff
+            --placeholder-color: rgba(#fff, 0.3)
+            border-bottom: 1px solid rgba(#fff, 0.1)
+
+            &.focus
+                border-bottom: 1px solid #fff
+
+        .txt
+            font-family: 'Outfit'
+            font-style: normal
+            color: #fff
+            font-size: 14px
+
+        .txt2
+            font-family: 'Outfit'
+            font-style: normal
+            color: rgba(#fff, 0.3)
+            font-size: 14px
+
+    .popupSubmitBtn
+        width: calc(100% - 30px)
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        display: flex
+        height: 38px
+        // line-height: @height
+        justify-content: center
+        align-items: center
+        color: #000
+        background: #00FF85
+        border-radius: 100px
+        border: 0 none
+        margin: 20px auto 15px
+
+        &.loading
+            justify-content: center
+            opacity: 1
+
+        span
+            flex: 1
+
+    .still
+        color: #fff
+        text-align: center
+        margin: -5px 0 15px
+        height: 38px
+        line-height: @height
+
+    .popupList
+        padding: 0 15px
+
+        .item
+            text-align: center
+            height: 48px
+            line-height: @height
+            border-bottom: 1px solid rgba(#fff, 0.1)
+            color: #fff
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+
+            &:last-child
+                border: 0 none
+
+    .popupNFTConfirm
+        padding: 0 15px
+        display: flex
+        color: #fff
+        font-size: 12px
+
+        .img
+            width: 140px
+            height: 140px
+            margin: 20px 0 0 0
+            border-radius: 10px
+
+        .info
+            flex: 1
+            margin: 15px 0 0 15px
+
+            .title
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 700
+                font-size: 20px
+                line-height: 26px
+                color: #FFFFFF
+
+            .subTitle
+                display: flex
+                justify-content: space-between
+                margin: 10px 0
+                line-height: 16px
+
+            .progressBar
+                height: 4px
+                background: rgba(#fff, 0.1)
+                margin: 5px 0 10px
+                border-radius: 100px
+
+                div
+                    background: #00FF85
+                    height: 100%
+                    border-radius: 100px
+
+            .btn
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 500
+                font-size: 12px
+                height: 18px
+                line-height: @height
+                color: #00FF85
+                border: 1px solid #00FF85
+                margin: 0 0 10px
+                border-radius: 100px
+                width: 66px
+                text-align: center
+
+            .price
+                display: flex
+                align-items: center
+
+                img
+                    size: 13px
+                    margin: 0 5px 0 0
+
+                span
+                    font-family: 'Outfit'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 18px
+                    line-height: 22px
+
+.lt-skeleton
+    margin: 0 15px
+
+.searchPopup
+    padding: 15px
+
+    .adm-popup-body
+        background: #000
+
+    .close
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        line-height: 20px
+        color: rgba(#fff, 0.5)
+
+    .title
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 28px
+        line-height: 36px
+        color: #fff
+        padding: 10px 0 15px
+
+    .search
+        --border-radius: 20px
+        --adm-color-primary: #fff
+        --background: rgba(#fff, 0.1)
+        --adm-color-white: rgba(#fff, 0.1)
+        --adm-color-text: #fff
+        ---placeholder-color: rgba(#fff, 0.5)
+        margin: 0 0 30px
+
+        .adm-search-bar-input-box
+            border: 0 none
+
+        .adm-search-bar-input-box-icon
+            display: flex
+            justify-content: center
+
+        .icon
+            size: 16px
+            color: rgba(#fff, 0.3)
+
+    .list
+        overflow: auto
+        height: calc(100vh - 200px)
+
+        .item
+            display: flex
+            margin: 0 0 15px
+
+            .img
+                margin: 0 20px 0 0
+                border-radius: 5px
+                overflow: hidden
+
+            .txt
+                flex: 1
+
+                .name
+                    font-family: 'Outfit'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 15px
+                    line-height: 19px
+                    color: #fff
+
+                .author
+                    font-family: 'Outfit'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 12px
+                    line-height: 15px
+                    color: rgba(#fff, 0.5)
+                    padding: 10px 0 10px
+
+                .desc
+                    multi-line(3)
+
+.walletPopup
+    padding: 15px
+
+    .adm-popup-body
+        background: #212121
+        border-radius: 20px
+        left: 15px
+        bottom: 15px
+
+    .title
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 18px
+        line-height: 22px
+        padding: 0 0 25px
+        color: #fff
+
+.readerPopup
+    .adm-popup-body
+        background: #000
+
+    .close
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        line-height: 20px
+        color: rgba(#fff, 0.5)
+
+    .title
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 28px
+        line-height: 36px
+        color: #fff
+        padding: 10px 0 15px
+
+    .list
+        overflow: auto
+        height: calc(100vh - 150px)
+
+        .item
+            margin: 0 0 20px
+
+            .subTitle
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 500
+                font-size: 12px
+                line-height: 14px
+                text-transform: uppercase
+                color: rgba(0, 0, 0, 0.3)
+                margin: 0 0 10px
+
+            .name
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 500
+                font-size: 16px
+                line-height: 20px
+                color: #fff
+
+    .header
+        background: #111
+        position: relative
+
+        .iconWrap
+            display: flex
+
+            .btn
+                padding: 15px 10px
+                color: #fff
+
+                .icon
+                    size: 15px
+
+        .title
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 700
+            font-size: 20px
+            line-height: 26px
+            text-transform: capitalize
+            color: #fff
+            padding: 0 10px 10px
+
+        .number
+            font-family: 'Outfit'
+            font-style: normal
+            font-weight: 400
+            font-size: 12px
+            line-height: 16px
+            color: rgba(#fff, 0.7)
+            padding: 0 10px 10px
+
+        .status
+            position: absolute
+            top: 15px
+            right: 15px
+
+            div
+                height: 30px
+                line-height: 30px
+                padding: 0 18px
+                font-family: 'Outfit'
+                font-style: normal
+                font-weight: 400
+                border-radius: 5px
+                display: flex
+                align-items: center
+
+                span
+                    margin-right: 5px   
+
+                &.status1
+                    color: #00FF85
+                    background: rgba(#00FF85, .1)
+
+                &.status2
+                    color: rgba(#00FF85, 0.5)
+                    background: rgba(#00FF85, .1)
+
+                &.status3
+                    color: #FFC700
+                    background: rgba(#FFC700, .1)
+
+    .footer
+        background: #111
+        width: calc(100% - 15px)
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 0 15px 0 0
+        color: rgba(#fff, 0.7)
+
+        .left
+            padding: 15px
+            color: #fff
+            width: 80px
+            box-sizing: border-box
+
+            .icon
+                size: 10px
+
+        .right
+            width: 80px
+            text-align: right
+
+.delectPopup
+    .adm-popup-body
+        background: none
+
+    .btn
+        background: #FF3838
+        border-radius: 100px
+        margin: 30px
+        height: 38px
+        width: calc(100% - 60px)
+        box-sizing: border-box
+        border: 0 none
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        line-height: 18px
+        color: #000000

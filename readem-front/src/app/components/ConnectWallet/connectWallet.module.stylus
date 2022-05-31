@@ -1,0 +1,16 @@
+.connectWallet
+    cursor: pointer
+
+    .connect
+        background: #00FF85
+        border-radius: 100px
+        height: 38px
+        line-height: @height
+        width: 100%
+        color: #000
+        border-radius: 100px
+        text-align: center
+        font-family: 'Outfit'
+        font-style: normal
+        font-weight: 700
+        font-size: 14px

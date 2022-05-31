@@ -1,0 +1,26 @@
+.slider
+    display: flex
+    width: 100%
+    background: var(--var-slider-bg)
+    border-radius: 15px
+    overflow: hidden
+    font-size: 12px
+    margin: 16px 0 32px
+
+    .item
+        flex: 1
+        text-align: center
+        color: var(--var-slider-text)
+        border-right: 1px solid var(--var-slider-line)
+        height: 26px
+        line-height: @height
+        cursor: pointer
+
+        &:last-child
+            border: 0 none
+
+        &.cur
+            background: #FF9900
+            color: #1B183D
+            border: 0 none
+            font-weight: 600

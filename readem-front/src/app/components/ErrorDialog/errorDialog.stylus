@@ -1,0 +1,58 @@
+.errorDialog
+    .ant-modal-body
+        padding: 0
+
+    .ant-modal-content
+        background: #39426D
+        border-radius: 11px
+        padding: 22px
+
+    .modalTitle
+        font-size: 16px
+        color: #D0D9FF
+        position: relative
+        font-family: 'Poppins-SemiBold'
+
+        em
+            position: absolute
+            top: 5px
+            right: 0
+            width: 16px
+            height: 16px
+            color: #333
+            display: block
+            background: url('./img/close.png') no-repeat
+            background-size: 100% 100%
+            // text-indent: -999em
+            // overflow: hidden
+            cursor: pointer
+
+    .modalMain
+        text-align: center
+        font-family: 'Poppins-Medium'
+
+        .title
+            font-size: 25px
+            color: #D0D9FF
+            padding: 20px 0 0
+
+        .subTitle
+            font-size: 12px
+            color: #757EAA
+            margin: 9px 0 44px
+
+        .text
+            
+            font-size: 19px
+            margin: 0 0 60px
+            color: #D0D9FF
+
+        .more
+            color: #3EA0F2
+            font-size: 16px
+
+            span 
+                background: url('./img/more.png') no-repeat right center
+                background-size: 15px 11px
+                padding: 0 25px 0 0
+                cursor pointer

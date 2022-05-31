@@ -1,0 +1,32 @@
+.connectWalletMax
+    cursor: pointer
+
+    .connect
+        alignItemsCenter()
+        background: var(--var-btn)
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075)
+        height: 60px
+        line-height: @height
+        width: 260px
+        border-radius: 8px
+
+        &:hover
+            background: var(--var-btn-hover)
+
+        &:before
+            display: block
+            content: ' '
+            background: #fff url('./img/matemask.png') no-repeat center
+            background-size: 32px auto
+            size: 56px
+            border-radius: 6px
+            margin: 2px
+
+        span
+            flex: 1
+            text-align: center
+            font-family: Roboto
+            font-style: normal
+            font-weight: 500
+            font-size: 20px
+            color: var(--var-text-main-dark-grey)
