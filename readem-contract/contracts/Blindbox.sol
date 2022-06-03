@@ -175,7 +175,6 @@ contract Blindbox is ERC721Enumerable, ERC721Pausable, Ownable {
     
         _burn(_boxId);
 
-        // 随机的nft发给用户
         if (nft.protocol == NFTProtocol.ERC721) {
             ERC721(nft.nftContract).safeTransferFrom(address(this), boxOwner, nft.tokenId);
         } else {
