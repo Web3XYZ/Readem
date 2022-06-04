@@ -26,10 +26,16 @@
         - When equipped with a Readem NFT, reading can not only bring you knowledge but also gain you wealth by receiving token rewards from Readem.
 
 # Features
+    The first version of the Readem App is a book reader with token rewards to users. 
+    
     * Book Reader
+    
     * Book market
+    
     * NFT staking & Minting & Upgrade
+    
     * NFT market 
+    
     * Profile Update
     
         
