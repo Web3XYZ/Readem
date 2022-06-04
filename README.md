@@ -1,6 +1,7 @@
 # Readem - Role-Agnostic Interactive Content Network
   
-   As an all-in-one, interactive content creation, reading and trading network, Readem aims to bring ownership back to creators and lower the creation barrier to engage a broader population. In Readem, audience can read novels with token-rewards; writers can publish their own books with low take-rate, and early audience can potentially earn royalty share by discovery and participate in the bootstrapping and creation process. Readem provides to-creator SDKs and interactive book creation toolkit to streamline all the connection between creators and audience. With Readem tokenomics, early supporters of books can get access to book content in advance and obtain part of loyalty share by acting as content curators. They can also become content creators by building their own interactive stories based on NFTs they are holding and templates provided by Readem. For creators, they can get a higher portion of book revenue and secondary sale revenue.
+   As an all-in-one, interactive content creation, reading and trading network, Readem aims to bring ownership back to creators and lower the creation barrier to engage a broader population. 
+   In Readem, audience can read novels with token-rewards; writers can publish their own books with a low take-rate, and early audience can potentially earn royalty share by discoverying and participating in the book bootstrapping and creation process. Readem provides to-creator SDKs and interactive book creation toolkit to streamline all the communication between creators and audience. With Readem tokenomics, early supporters can get access to book content in advance and obtain part of loyalty share by acting as content curators. They can also become content creators by building their own interactive stories based on NFTs they are holding and templates provided by Readem. For creators, they can get a higher portion of book revenue and secondary sale revenue.
    
    ![This is an image](https://readem.s3.us-east-2.amazonaws.com/Utils/demo.png)
    
@@ -9,7 +10,7 @@
    [Follow us](https://www.readem.xyz/)
 
 # Overview
-   We believe in the uniqueness and novelty embedded in inspirations. We see the future of interactive content.Readem liquidizes the value of content in Web3 via interactive reading and creating.
+   We believe in the uniqueness and novelty embedded in inspirations. We see the future of interactive content. Readem liquidizes the value of content in Web3 via interactive reading and creating.
    
    * Engage Everyone
         - Interactive fiction to immerse readers in and provide insights for creators.
@@ -21,7 +22,7 @@
         - Pick any book your like, comment freely and even turn it into an interactive fiction game using our templates.
          
    * Read For Fun
-        - When equipped with a Readem NFT, reading can not only bring your knowledge but also gain your wealth by receiving token rewards from Readem.
+        - When equipped with a Readem NFT, reading can not only bring you knowledge but also gain you wealth by receiving token rewards from Readem.
         
 # Architecture
    ![image](https://readem.s3.us-east-2.amazonaws.com/Utils/Structure.png)
@@ -30,11 +31,11 @@
    
    * Implementing a free book crawler service based on python technology aws s3 and building a free e-book library.
    
-   * Implement server-side based on golang technology to maintain data synchronization on the app side.
+   * Implementing server-side based on golang technology to maintain data synchronization on the app side.
    
    * Realization of wallet account system based on web3 technology.
    
-   * Random casting of NFT based on web3 and IPFS technology.
+   * Random generation of NFT based on web3 and IPFS technology.
    
 # UI Design
   Web UI
@@ -50,9 +51,9 @@
    [Download](https://github.com/Web3XYZ/Readem/blob/master/release/readem.apk)
    
 # Join Us
-   If you would like to contribute to the project or fix and issue, please contact us with dicord.
+   If you would like to contribute to the project or fix an issue, please contact us on dicord.
    
-   [JoinUs](https://discord.com/invite/u5pVthhAdf)
+   [Join Us](discord.gg/readem)
    
    You can also follow us on Twitter and leave a comment.
    
