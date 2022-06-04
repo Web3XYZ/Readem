@@ -54,7 +54,7 @@
 # Join Us
    If you would like to contribute to the project or fix an issue, please contact us on dicord.
    
-   [Join Us](discord.gg/readem)
+   [Join Us](https://discord.gg/readem)
    
    You can also follow us on Twitter and leave a comment.
    
