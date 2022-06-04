@@ -35,6 +35,14 @@
    * Realization of wallet account system based on web3 technology.
    
    * Random casting of NFT based on web3 and IPFS technology.
+   
+# UI Design
+  Web UI
+  ![web](https://readem.s3.us-east-2.amazonaws.com/Utils/webui.png)
+  
+  APP UI
+  ![app](https://readem.s3.us-east-2.amazonaws.com/Utils/appui.png)
+  
         
 # Get started with Readem
    Currently we only have android version 0.1, ios version is comming soon!
