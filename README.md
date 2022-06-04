@@ -1,11 +1,12 @@
 # Readem - Role-Agnostic Interactive Content Network
-   [Follow us](https://www.readem.xyz/)
-    
+  
    As an all-in-one, interactive content creation, reading and trading network, Readem aims to bring ownership back to creators and lower the creation barrier to engage a broader population.
    
    ![This is an image](https://readem.s3.us-east-2.amazonaws.com/Utils/demo.png)
    
    Built with love using Solidity, IPFS, Web3js, Golang, React and NodeJS.
+   
+   [Follow us](https://www.readem.xyz/)
 
 # Overview
    We believe in the uniqueness and novelty embedded in inspirations. We see the future of interactive content.Readem liquidizes the value of content in Web3 via interactive reading and creating.
