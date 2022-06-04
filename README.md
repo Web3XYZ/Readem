@@ -11,10 +11,10 @@
    We believe in the uniqueness and novelty embedded in inspirations. We see the future of interactive content.Readem liquidizes the value of content in Web3 via interactive reading and creating.
    
    * Engage Everyone
-        - Interactive fiction to immerse readers in and provide insights for creators
+        - Interactive fiction to immerse readers in and provide insights for creators.
         
    * Make Seconds Valuable
-        - Reward reading and creation; using Readem, users bring their flash of inspiration into life within seconds
+        - Reward reading and creation; using Readem, users bring their flash of inspiration into life within seconds.
         
    * Easy To Use
         - Pick any book your like, comment freely and even turn it into an interactive fiction game using our templates.
@@ -45,9 +45,9 @@
    
    [JoinUs](https://discord.com/invite/u5pVthhAdf)
    
-   You can also follow us on Twitter and leave a comment
+   You can also follow us on Twitter and leave a comment.
    
-   [Reademgo](https://twitter.com/Reademgo)
+   [reademxyz](https://twitter.com/reademxyz)
    
 # About Source Code
 ## readem-contract
