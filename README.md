@@ -1,6 +1,6 @@
 # Readem - Role-Agnostic Interactive Content Network
   
-   As an all-in-one, interactive content creation, reading and trading network, Readem aims to bring ownership back to creators and lower the creation barrier to engage a broader population.
+   As an all-in-one, interactive content creation, reading and trading network, Readem aims to bring ownership back to creators and lower the creation barrier to engage a broader population. In Readem, audience can read novels with token-rewards; writers can publish their own books with low take-rate, and early audience can potentially earn royalty share by discovery and participate in the bootstrapping and creation process. Readem provides to-creator SDKs and interactive book creation toolkit to streamline all the connection between creators and audience. With Readem tokenomics, early supporters of books can get access to book content in advance and obtain part of loyalty share by acting as content curators. They can also become content creators by building their own interactive stories based on NFTs they are holding and templates provided by Readem. For creators, they can get a higher portion of book revenue and secondary sale revenue.
    
    ![This is an image](https://readem.s3.us-east-2.amazonaws.com/Utils/demo.png)
    
