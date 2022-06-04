@@ -36,7 +36,7 @@
    * Random casting of NFT based on web3 and IPFS technology.
         
 # Get started with Readem
-   Currently we only have android version 0.1, ios version is Comming soon!
+   Currently we only have android version 0.1, ios version is comming soon!
    
    [Download](https://github.com/Web3XYZ/Readem/blob/master/release/readem.apk)
    
@@ -70,7 +70,7 @@
 
 
 ## readem-spider
-   Atool for getting some web books.
+   A tool for getting some free web books.
 
 ## release
-   App for android, version 0.1
+   App for android, version 0.1.
