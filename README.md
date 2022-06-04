@@ -24,6 +24,14 @@
          
    * Read For Fun
         - When equipped with a Readem NFT, reading can not only bring you knowledge but also gain you wealth by receiving token rewards from Readem.
+
+# Features
+    * Book Reader
+    * Book market
+    * NFT staking & Minting & Upgrade
+    * NFT market 
+    * Profile Update
+    
         
 # Architecture
    ![image](https://readem.s3.us-east-2.amazonaws.com/Utils/Structure.png)
@@ -58,7 +66,7 @@
    
    You can also follow us on Twitter and leave a comment.
    
-   [reademxyz](https://twitter.com/reademxyz)
+   [Readem Twitter](https://twitter.com/reademxyz)
    
 # About Source Code
 ## readem-contract
